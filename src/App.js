@@ -7,21 +7,23 @@ function App() {
     description: 'Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor',
   }
 
+  // const styles = 
+
   return (
     <div className="App">
-      <div>
+      <div className='blogCard'>
         <h3>{blogObj.title}</h3>
         <p>{blogObj.description}
         </p>
       </div>
       <hr></hr>
-      <div>
+      <div className='blogCard'>
         <h3>{blogObj.title}</h3>
         <p>{blogObj.description}
         </p>
       </div>
       <hr></hr>
-      <div>
+      <div className='blogCard'>
         <h3>{blogObj.title}</h3>
         <p>{blogObj.description}
         </p>
