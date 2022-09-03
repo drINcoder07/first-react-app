@@ -1,11 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const blogObj = {
-    title: 'Blog Title 1',
-    description: 'Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor Lorem Ipsum Dolor',
-  }
 
   const blogArr = [
     {
